@@ -4,8 +4,6 @@ from langchain_core.messages import AIMessage
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
-
-
 load_dotenv()
 generate_prompt = ChatPromptTemplate.from_messages([
     (
